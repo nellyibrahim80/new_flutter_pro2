@@ -6,12 +6,9 @@ class Mysecondscreen extends StatefulWidget {
   var passdata;
   Mysecondscreen({this.trans, this.passdata ,this.userD,  super.key});
 
-
-
   @override
   State<Mysecondscreen> createState() => _MysecondscreenState();
 }
-
 class _MysecondscreenState extends State<Mysecondscreen> {
   @override
   Widget build(BuildContext context) {

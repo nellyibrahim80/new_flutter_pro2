@@ -4,7 +4,6 @@ import 'package:new_flutter_pro/Mysecondscreen.dart';
 void main() {
   runApp(myfirstapp());
 }
-
 class myfirstapp extends StatelessWidget {
   const myfirstapp({super.key});
 
@@ -15,7 +14,6 @@ class myfirstapp extends StatelessWidget {
     );
   }
 }
-
 class Myscaf extends StatelessWidget {
   const Myscaf({super.key});
 
@@ -40,7 +38,6 @@ class Myscaf extends StatelessWidget {
     );
   }
 }
-
 class MyLogin extends StatelessWidget {
   var userData = TextEditingController();
   var passData = TextEditingController();
